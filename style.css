@@ -1,0 +1,30 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400&subset=latin,cyrillic);
+@import url(//fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,700&subset=latin,cyrillic);
+html,body{height: 100%;}
+body{font-family: "Exo 2", sans-serif; color: #6a6866;}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+/* Ð”Ð»Ñ ÑÑ€ÐµÐ´Ð½Ð¸Ñ… ÑƒÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð² (Ð¿Ð»Ð°Ð½ÑˆÐµÑ‚Ñ‹) */
+@media (min-width: 420px) {
+  img {
+    max-width: 48%;
+  }
+}
+/* Ð”Ð»Ñ Ð±Ð¾Ð»ÑŒÑˆÐ¸Ñ… ÑƒÑÑ‚Ñ€Ð¾Ð¹ÑÑ‚Ð² (Ð½Ð¾ÑƒÑ‚Ñ‹, Ð¿Ðº) */
+@media (min-width: 760px) {
+  img {
+    max-width: 38%;
+  }
+}
+#content{position: relative;top: 7%;}
+#container{background-color: rgba(255,255,255, 0.7);border-radius: 15px;}
+#container .inner{padding: 7% 0 5% 0%; text-align: center;}
+#container .inner p{font-weight: 300; font-size: 30px;}
+img.avatar{width: 250px; padding-bottom: 5%;}
+#container .contact{margin: 0 auto;vertical-align: top;padding-top: 3%;}
+#container .contact img{margin-right: 2%; margin-left: 2%;}
+#copyright{text-align: center; text-transform: uppercase; font-weight: 200; font-size: 30px; color: #b6b6b6; padding-top: 3%;}
+#copyright span{font-weight: 700;}
+
