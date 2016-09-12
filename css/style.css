@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'ProximaBold';
-    src: url(fonts/ProximaNova-Bold.ttf);
+    src: url(/website/fonts/ProximaNova-Bold.ttf);
     font-weight: 900;
  	font-style: normal;
 }
 @font-face {
     font-family: "ProximaRegular";
-    src: url(fonts/ProximaNova-Regular.ttf);
+    src: url(/website/fonts/ProximaNova-Regular.ttf);
     font-weight: 400;
  	font-style: normal;
 }
 @font-face {
     font-family: 'ProximaSemiBold';
-    src: url(fonts/ProximaNova-Semibold.ttf);
+    src: url(/website/fonts/ProximaNova-Semibold.ttf);
     font-weight: 600;
  	font-style: normal;
 }   
@@ -41,7 +41,7 @@ img {
     display: inline-block;
 }
 .icon-authorization {
-    background-image: url('images/authorization.png');
+    background-image: url('/website/images/authorization.png');
     width: 20px;
     height: 16px;
     display: inline-block;
@@ -51,10 +51,10 @@ img {
 	background-position: 20px 0;
 }
 .icon-repost {
-	background-image: url('images/ico-repost.png');
+	background-image: url('/website/images/ico-repost.png');
 }
 .icon-like {
-	background-image: url('images/ico-like.png');
+	background-image: url('/website/images/ico-like.png');
 }
 .text-center {
     text-align: center;
